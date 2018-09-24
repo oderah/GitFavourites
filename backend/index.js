@@ -2,7 +2,10 @@ const express = require('express')
 const cors = require('cors')
 const mysql = require('mysql')
 const fetch = require('node-fetch')
-const token = '3a0f44d626c72e72bebe6615667211c87aadfc91'
+// const token = '3a0f44d626c72e72bebe6615667211c87aadfc91'
+const token = require('./token.json').token
+
+console.log('token => ', token)
 
 const app = express()
 const bodyParser = require('body-parser')
