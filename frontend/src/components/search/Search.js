@@ -28,7 +28,7 @@ const axios = require('axios')
             searched: true
           })
         })
-        .cath(err => throw err)
+        .catch(err => console.log(err))
       }
     }
 
