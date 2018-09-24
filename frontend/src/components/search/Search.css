@@ -1,0 +1,27 @@
+div {
+  flex-basis: 50%;
+}
+
+form {
+  margin: 0;
+}
+
+input {
+  flex-grow: 1;
+}
+
+button {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  form button {
+    margin-left: 40%;
+  }
+}
+
+/* @media only screen and (max-width: 490px) {
+  div {
+    overflow: scroll;
+  }
+} */

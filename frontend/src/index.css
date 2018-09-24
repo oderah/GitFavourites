@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+  #appContainer {
+    display: flex;
+    flex-direction: column; !important
+    background-color: red;
+  }
+  #search, #favourites {
+    flex-basis: 100%;
+  }
+}
